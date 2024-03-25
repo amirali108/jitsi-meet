@@ -3,20 +3,25 @@
 Step 1: Install Docker and Docker Compose:
 
 1-Install Docker:
+
 sudo apt update
+
 sudo apt install docker.io
 
 2-Install Docker Compose:
+
 sudo apt install docker-compose
 
 Step 2: Clone Jitsi Meet Docker Repository:
 
 1-Clone the Jitsi Meet Docker repository:
+
 git clone https://github.com/jitsi/docker-jitsi-meet.git ~/jitsi-meet
 
 Step 3: Configure Jitsi Meet:
 
 1-Navigate to the Jitsi Meet Docker directory:
+
 cd ~/jitsi-meet/docker-jitsi-meet
 
 2-Modify the .env file to set configuration options such as PUBLIC_URL, HTTP_PORT, HTTPS_PORT, and others as per your requirements.
@@ -24,11 +29,13 @@ cd ~/jitsi-meet/docker-jitsi-meet
 Step 4: Start Jitsi Meet Containers:
 
 1-Start the Jitsi Meet containers:
+
 docker-compose up -d
 
 Step 5: Verify Installation:
 
 1-Check the status of running containers:
+
 docker ps
 
 Step 6: Access Jitsi Meet:
@@ -49,6 +56,7 @@ Step 8: Additional Configuration (Optional)
 Step 9: Stopping Jitsi Meet
 
 1-To stop the Jitsi Meet containers, navigate to the ~/jitsi-meet/docker-jitsi-meet directory and run:
+
 docker-compose down
 
 
