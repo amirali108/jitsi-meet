@@ -102,7 +102,6 @@ cp env.example .env
 nano .env     # or use your preferred text editor. In the .env file, make sure to adjust variables like CONFIG, HTTP_PORT, 
 
 and HTTPS_PORT according to your setup. Since you don't have SSL configured, you may set HTTP_PORT to 80 and HTTPS_PORT to 
-
 an empty string.
 
 
