@@ -59,6 +59,10 @@ Step 9: Stopping Jitsi Meet
 
 docker-compose down
 ----------------------------------------------------------------------
+-----------------------------------------------------------------------
+
+
+update:
 
 Step 1: Install Docker and Docker Compose
 For Linux:
