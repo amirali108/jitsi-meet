@@ -67,7 +67,7 @@ docker-compose down
 Step 1: Install Docker and Docker Compose
 For Linux:
 
-Copy code
+
 # Install Docker
 
 sudo apt-get update
@@ -83,7 +83,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 Step 2: Prepare Jitsi Meet Docker Setup
 
-Copy code
+
 
 # Clone the Jitsi Meet Docker Repository
 
@@ -99,7 +99,9 @@ cp env.example .env
 
 # Adjust variables like CONFIG, HTTP_PORT, and HTTPS_PORT as needed
 
-nano .env     # or use your preferred text editor. In the .env file, make sure to adjust variables like CONFIG, HTTP_PORT, 
+nano .env     
+
+# or use your preferred text editor. In the .env file, make sure to adjust variables like CONFIG, HTTP_PORT, 
 
 and HTTPS_PORT according to your setup. Since you don't have SSL configured, you may set HTTP_PORT to 80 and HTTPS_PORT to 
 an empty string.
@@ -107,7 +109,7 @@ an empty string.
 
 Step 3: Run Jitsi Meet with Docker Compose
 
-Copy code
+
 
 # Generate Configuration Files
 
@@ -124,7 +126,7 @@ To access your Jitsi Meet instance, open a web browser and go to http://YOUR_SER
 
 Step 4: Stopping and Cleaning Up
 
-Copy code
+
 
 # Stop Jitsi Meet
 
